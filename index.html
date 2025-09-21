@@ -4,41 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Pembayaran SPP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-    <h1>Website Pembayaran SPP</h1>
-    <nav>
-        <ul>
-        <li><a href="about.html">Tentang</a></li>
-        <li><a href="login.html">Login</a></li>
+<body class="body">
+<header class="header">
+    <h1 class="site-title">Website Pembayaran SPP</h1>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="about/about.html" class="nav-link">Tentang</a></li>
+            <li><a href="login/login.html" class="nav-link btn btn-primary">Login</a></li>
         </ul>
     </nav>
 </header>
 
-<main>
-    <section>
-        <h2>Menu</h2>
-        <article>
-            <h3>1. Pembayaran Online</h3>
-        <p>Sistem pembayaran SPP langsung melalui website menggunakan berbagai metode pembayaran.</p>
-        </article>
-        <article>
-            <h3>2. Riwayat Pembayaran</h3>
-            <p>Siswa dapat melihat catatan pembayaran yang sudah dilakukan sebelumnya.</p>
-        </article>
+<main class="main">
+    <section class="menu-section">
+        <h2 class="section-title">Menu</h2>
+        <div class="grid">
+            <article class="card">
+                <h3 class="card-title">1. Pembayaran Online</h3>
+                <p class="card-text">
+                    Sistem pembayaran SPP langsung melalui website.
+                </p>
+            </article>
+            <article class="card">
+                <h3 class="card-title">2. Riwayat Pembayaran</h3>
+                <p class="card-text">
+                    Siswa dapat melihat catatan pembayaran yang sudah dilakukan sebelumnya.
+                </p>
+            </article>
+            <article class="card">
+                <h3 class="card-title">3. Cetak Bukti Pembayaran</h3>
+                <p class="card-text">
+                    Download dan cetak bukti pembayaran SPP secara langsung setelah transaksi berhasil.
+                </p>
+            </article>
+            <article class="card">
+                <h3 class="card-title">4. Bantuan</h3>
+                <p class="card-text">
+                    Dapatkan panduan penggunaan website atau hubungi admin jika ada kendala.
+                </p>
+            </article>
+        </div>
     </section>
 
-    <section>
-        <h3>Kontak</h3>
-        <p>Email: syafiqhafizh06@gmail.com</p>
-        <p>Telepon: 081257653738</p>
+    <section class="benefit-section">
+        <h2 class="section-title">Keuntungan Menggunakan Website Pembayaran Sekolah Ini</h2>
+        <ul class="benefit-list">
+            <li>1. Bisa diakses dari rumah.</li>
+            <li>2. Aman karena diatur oleh pihak sekolah.</li>
+            <li>3. Proses pembayaran cepat dan mudah.</li>
+            <li>4. Semua riwayat pembayaran tersimpan dengan rapi.</li>
+        </ul>
     </section>
 
+    <section class="faq-section">
+        <h2 class="section-title">FAQ</h2>
+        <div class="card">
+            <h3 class="card-title">Bagaimana cara membayar?</h3>
+            <p class="card-text">Login terlebih dahulu dengan NISN dan akan ada fiturnya.</p>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Apakah data saya aman?</h3>
+            <p class="card-text">Ya, semua data dilindungi oleh pihak sekolah.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <h3 class="section-title">Kontak</h3>
+        <p>Email: <a href="mailto:syafiqhafizh06@gmail.com" class="link">syafiqhafizh06@gmail.com</a></p>
+        <p>Telepon: <a href="tel:081257653738" class="link">081257653738</a></p>
+    </section>
 </main>
 
-<footer>
-    <p>Website Pembayaran SPP</p>
+<footer class="footer">
+    <p>2025 Website Pembayaran SPP</p>
 </footer>
 
 </body>
