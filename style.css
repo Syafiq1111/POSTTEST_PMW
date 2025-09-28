@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+/* KODE BARU DIMULAI DI SINI */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Memberi jarak antara logo dan judul */
+}
+
+.logo {
+    width: 50px; /* Mengatur lebar logo */
+    height: auto; /* Menjaga rasio aspek gambar */
+}
+/* KODE BARU SELESAI */
+
 .body {
     display: flex;
     flex-direction: column;
@@ -115,6 +128,19 @@
 
 .faq-section .card {
     margin-bottom: 16px;
+}
+
+.faq-question {
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+}
+
+.faq-answer.active {
+    display: block;
 }
 
 @media (max-width: 600px) {
