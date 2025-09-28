@@ -23,6 +23,7 @@
     min-height: 100vh;
     background: linear-gradient(to bottom, #f7f7f7, #e8f1ff);
     color: #333;
+    overflow-y: scroll;
 }
 
 .header {
