@@ -15,8 +15,8 @@
     </div>
     <nav class="nav">
         <ul class="nav-list">
-            <li><a href="about/about.html" class="nav-link">Tentang</a></li>
-            <li><a href="login/login.html" class="nav-link btn btn-primary">Login</a></li>
+            <li><a href="about/about.php" class="nav-link">Tentang</a></li>
+            <li><a href="login/login.php" class="nav-link btn btn-primary">Login</a></li>
         </ul>
     </nav>
 </header>

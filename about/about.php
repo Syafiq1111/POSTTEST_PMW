@@ -12,8 +12,8 @@
     <h1 class="site-title">Tentang Website Pembayaran SPP</h1>
     <nav>
         <ul class="nav-list">
-            <li><a href="../index.html" class="nav-link">Beranda</a></li>
-            <li><a href="../login/login.html" class="nav-link">Login</a></li>
+            <li><a href="../index.php" class="nav-link">Beranda</a></li>
+            <li><a href="../login/login.php" class="nav-link">Login</a></li>
         </ul>
     </nav>
 </header>
